@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'FlexPAL' target in the 'FlexPAL' project.
+//
+
+
+#include <iostream>
+
+#ifdef WIN32
+#define WINDOWS
+#else
+#define POSIX
+#endif
